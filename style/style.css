@@ -1,0 +1,76 @@
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFEDD5;
+    margin: 0 auto;
+}
+
+ul{
+    list-style:none;
+}
+
+/* HEADER */
+header{ 
+    padding: 32px 0;
+    text-align: center;
+}
+
+header,
+section{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: 'Roboto Serif', serif;
+    max-width: 300px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+header h1 span{
+    color: #995000;
+}
+
+/* SECTION */
+section{
+    margin-bottom: 24px;
+}
+
+section h2{
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Roboto Serif', serif;
+}
+
+/* LISTA */
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details{
+    max-width: 240px;
+}
+
+.details h3{
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 8px;
+}
+
+li .price{
+    font-family: 'Roboto Serif', serif;
+    text-align: right;
+}
